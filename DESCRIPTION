@@ -1,0 +1,27 @@
+Package: cvxoptdes
+Type: Package
+Title: Convex Optimal Experiment Design
+Version: 1.0.0
+Date: 2026-11-01
+Authors@R: person("Joris", "Chau", email = "joris.chau@openanalytics.eu", role = c("aut", "cre", "cph"))
+Description: Convex optimal experiment design across discrete candidate grids using open-source optimization solvers. Specifies and optimizes designs using an object-oriented interface (via 'R6') for linear models, generalized linear/additive models, nonlinear models, and random intercept linear mixed models. Optimization and augmentation of weighted, penalized and convex constrained approximate designs is supported using the Splitting Cone Solver (SCS). Optimal rounding to integer-valued designs is supported using point-exchange methods or mixed-integer programming with the 'HiGHS' solver. For details, see Chau et al. (2026) <doi:10.48550/arXiv.2610.14288>. 
+BugReports: https://github.com/openanalytics/cvxoptdes/issues
+URL: https://repos.openanalytics.eu/docs/cvxoptdes/,
+        https://github.com/openanalytics/cvxoptdes
+Depends: R (>= 4.1.0)
+Imports: methods, Matrix, stats, R6, reformulas, progress, mgcv, mirai
+Suggests: highs, knitr, rmarkdown
+Encoding: UTF-8
+Language: en-US
+License: Apache License (>= 2.0)
+SystemRequirements: GNU make, CMake
+Biarch: true
+LazyData: true
+VignetteBuilder: knitr
+Config/roxygen2/version: 8.1.0
+NeedsCompilation: yes
+Packaged: 2026-11-01 09:30:39 UTC; jchau
+Author: Joris Chau [aut, cre, cph]
+Maintainer: Joris Chau <joris.chau@openanalytics.eu>
+Repository: CRAN
+Date/Publication: 2026-11-19 11:10:02 UTC
